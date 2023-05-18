@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratham Dubey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <a href="https://prathamdubey06.github.io/Portfolio/"><img src="images/logo1.png" class="logo"></a>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <!--<li><a href="#services">Services</a></li> -->
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Pratham</span><br>Dubey From India</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Student with a keen interest in tech, sports, writing and dancing :P</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Game Development</span><br>Creating games in PyGame, JavaSwing, etc.</li>
+                        <li><span>Software Developer</span><br>Creating applications using Java, Python etc.</li>
+                        <li><span>Content Writing</span><br>Writing story, play, blogs, etc.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Jun 2022 - Aug 2022</span><br>Software Developer at TCS</li>
+                        <li><span>Aug 2021 - Oct 2021</span><br>Business Development Executive at Tech Beans</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2024</span><br>B. Tech from Symbiosis University of Applied Sciences(89.8%)</li>
+                        <li><span>2018-2020</span><br>XII from Shealing Public School(81.2%)</li>
+                        <li><span>2005-2018</span><br>X from Christian English College(88.2%)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Sports</h2>
+                <p>I have played Cricket(National Level) and Table Tennis(State Level)</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Writing</h2>
+                <p>I have wrote number of blogs, stories, plays, etc.</p>
+                <a href="https://drive.google.com/drive/folders/1Tr0fJOr-6NfZBd9b4fGWsF7WCxYTz8Ic?usp=share_link">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Dance</h2>
+                <p>I love to dance and express different personalities in drama.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Cloud: An AI Bot</h3>
+                    <p>This is an Python Based Voice Recognition AI bot which can: Wikipedia, Google, Youtube, News, Today's Everything, Open Applications, Email, Whatsapp, Jokes</p>
+                    <a href="https://github.com/PrathamDubey06/AIBot-Python-Project" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Youtube Video to Text Summarizer</h3>
+                    <p>This is a .ipynb project which takes youtube video link as input and provides summary of the audio of that video.</p>
+                    <a href="https://github.com/PrathamDubey06/YoutubeVideoToTextSummarizer" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg">
+                <div class="layer">
+                    <h3>Run For Life</h3>
+                    <p>RunForLife is a game in which the player has to run and dodge the coming obstacles and the score increases with respect to time. This is project created using PyGame, a sub-category of python which helps in creating Game(GUI Based) using python language.</p>
+                    <a href="https://github.com/PrathamDubey06/RunForLife-PyGame-Project" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/PrathamDubey06?tab=repositories" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>theprathamdubey@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>7000968520</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/_.riishi._?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pratham-dubey-7b0585201/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Pratham-Dubey-Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Pratham. Made wtih <i class="fas fa-heart"></i> by RiSHi</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
